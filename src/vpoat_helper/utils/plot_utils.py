@@ -7,6 +7,13 @@ import numpy as np
 
 
 def plot_polygon(polygons, width: int, height: int):
+  """
+  Plot list of polygons
+
+  :param polygons numpy.darray: list of polygons
+  :param width int: width of image
+  :param height int: height of image
+  """
 
     shapes = []
     for p in polygons:
