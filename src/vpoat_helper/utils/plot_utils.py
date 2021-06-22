@@ -6,7 +6,7 @@ import matplotlib
 import numpy as np
 
 
-def plot_polygon_on_empty(polygons, width: int, height: int):
+def plot_polygon(polygons, width: int, height: int):
 
     shapes = []
     for p in polygons:
